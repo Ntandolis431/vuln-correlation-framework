@@ -25,12 +25,10 @@ A lightweight, interpretable machine‑learning tool that takes raw output from 
 
 1. **Clone the repository:**
 
-```bash
 git clone https://github.com/Ntandolis431/vuln-correlation-framework.git
 cd vuln-correlation-framework
 Build the Docker image:
 
-bash
 docker build -t vuln-correlation .
 That's it. No Python, no libraries, no security tools are required on your machine.
 
@@ -52,7 +50,6 @@ Provide as many or as few tool outputs as you have. The framework automatically 
 2. Run the framework
 Navigate to the folder containing your scan files and execute:
 
-bash
 docker run --rm -v "$(pwd):/data" vuln-correlation \
   endpoints.csv --semgrep semgrep.json --zap zap.json --spotbugs spotbugs.xml
 Use only the flags that correspond to files you have. The tool processes your files in seconds and displays a ranked report in the terminal.
@@ -86,4 +83,4 @@ https://i.imgur.com/1phLrmY.png
 License
 This project is distributed for academic and research purposes. See the accompanying thesis for full details:
 
-Kondo K. N. Efficient Web‑Vulnerability Detection Technique Using Hybrid SAST–DAST Analysis and Machine Learning. Master's Thesis. Belarusian State University of Informatics and Radioelectronics, Minsk, 2025.
+Kondo K. N. Efficient Web‑Vulnerability Detection Technique Using Hybrid SAST–DAST Analysis and Machine Learning. Master's Thesis. Belarusian State University of Informatics and Radioelectronics, Minsk, 2026.
