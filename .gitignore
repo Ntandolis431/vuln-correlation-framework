@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+*.log
+*.csv
+*.png
+*.json
+*.xml
+predictions/
+!/random_forest_calibrated_new.pkl
