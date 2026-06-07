@@ -9,3 +9,8 @@ __pycache__/
 *.xml
 predictions/
 !/random_forest_calibrated_new.pkl
+
+# Allow data files in the data/ folder
+
+# Allow data files in the data/ folder
+!data/*.csv

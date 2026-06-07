@@ -1,0 +1,7 @@
+test_name,method,ground_truth,sonarqube,semgrep,spotbugs,zap,pmd,findbugs,findsecbugs,num_tools,num_disagree,semgrep_and_zap,spotbugs_and_zap,zap_weighted,zap_relevant,probability,prediction
+/api/Feedbacks,GET,1,0,0,0,1,0,0,0,1,3,0,0,0,0,0.6745052237966924,1
+/ftp/legal.md%2500.md,GET,1,0,1,0,1,0,0,0,2,2,1,0,0,0,0.7431682479279843,1
+/rest/basket/2,GET,1,0,0,0,1,0,0,0,1,3,0,0,0,0,0.6745052237966924,1
+/rest/products/search,GET,1,0,1,0,1,0,0,0,2,2,1,0,0,0,0.7431682479279843,1
+/rest/user/login,GET,1,0,1,0,1,0,0,0,2,2,1,0,0,0,0.7431682479279843,1
+/rest/user/whoami,GET,1,0,1,0,1,0,0,0,2,2,1,0,0,0,0.7431682479279843,1
